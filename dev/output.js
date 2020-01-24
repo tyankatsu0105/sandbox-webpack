@@ -81,19 +81,19 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./dev/main.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./dev/input.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./dev/main.js":
-/*!*********************!*\
-  !*** ./dev/main.js ***!
-  \*********************/
+/***/ "./dev/input.js":
+/*!**********************!*\
+  !*** ./dev/input.js ***!
+  \**********************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("const hoge = 1;\n\n//# sourceURL=webpack:///./dev/main.js?");
+eval("const hoge = 1;\n\n//# sourceURL=webpack:///./dev/input.js?");
 
 /***/ })
 
