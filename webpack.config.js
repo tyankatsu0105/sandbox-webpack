@@ -1,10 +1,22 @@
-const webpack = require("webpack")
+const path = require('path');
 
-/** @type {Parameters<typeof webpack>[0][0]} */
 module.exports = {
-  entry: './src/main.js',
+  mode: 'development',
+  entry: './dev/main.js',
   output: {
-      path: __dirname + '/dist',
-      filename: 'main.js',
+    path: __dirname,
+    filename: 'output.js',
+  },
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        use: [
+          {
+            loader: path.resolve('./dist/loader.js'),
+          }
+        ]
+      }
+    ]
   }
 };

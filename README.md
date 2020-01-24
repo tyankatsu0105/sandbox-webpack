@@ -1,3 +1,11 @@
+webpackのloaderを作って理解する
+
+## babelでトランスパイル
 ```bash
-npx webpack
+npm run dev
+```
+
+## webpack動かして確認
+```bash
+npm run check
 ```

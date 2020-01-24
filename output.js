@@ -81,32 +81,19 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/main.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./dev/main.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/main.js":
+/***/ "./dev/main.js":
 /*!*********************!*\
-  !*** ./src/main.js ***!
+  !*** ./dev/main.js ***!
   \*********************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/*! no static exports found */
+/***/ (function(module, exports) {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./utils */ \"./src/utils/index.js\");\n\n\nconsole.log(_utils__WEBPACK_IMPORTED_MODULE_0__[\"NAME\"])\n\n//# sourceURL=webpack:///./src/main.js?");
-
-/***/ }),
-
-/***/ "./src/utils/index.js":
-/*!****************************!*\
-  !*** ./src/utils/index.js ***!
-  \****************************/
-/*! exports provided: NAME, AGE */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"NAME\", function() { return NAME; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"AGE\", function() { return AGE; });\nconst NAME = 'tyankatsu';\nconst AGE = 25;\n\n//# sourceURL=webpack:///./src/utils/index.js?");
+eval("const hoge = 1;\n\n//# sourceURL=webpack:///./dev/main.js?");
 
 /***/ })
 
